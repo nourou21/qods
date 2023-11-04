@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Sample HTML Page</title>
+    <script>
+        function redirectToBoycottPage(url) {
+            window.location.href = url;
+        }
+    </script>
 </head>
 
 
@@ -89,12 +94,12 @@
             <div class="help-box">
                 <h3 class="box-title">Suggest an Alternative</h3>
                 <p>Help people find the best alternative for boycotted products.</p>
-                <button class="green-button">Add</button>
+                <button class="green-button" onclick="redirectToBoycottPage('/suggest%20boycot/boycott.html')">Add</button>
             </div>
             <div class="help-box">
                 <h3 class="box-title">Suggest a Product to Boycott</h3>
                 <p>Make people aware of products to be boycotted.</p>
-                <button class="green-button">Add</button>
+                <button class="green-button" onclick="redirectToBoycottPage('/suggest%20boycot/boycott.html')">Add</button>
             </div>
         </div>
     </main>
