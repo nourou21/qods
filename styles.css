@@ -34,8 +34,23 @@ body {
     left: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: #008000; /* Dark green color */
+    color: #2ecc71; /* Green color */
     text-decoration: none;
+}
+
+
+.green-button {
+    background-color: #2ecc71; /* Change the background color to a different shade of green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.green-button:hover {
+    background-color: #27ae60; /* Change the hover background color to a slightly darker shade of green */
 }
 
 .israel-support,
