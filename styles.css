@@ -28,13 +28,13 @@ body {
     color: #fff;
 }
 
-.logo {
+.logo a{
     position: absolute;
     top: 10px;
     left: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: #2ecc71; /* Green color */
+    color: #358456; /* Green color */
     text-decoration: none;
 }
 
